@@ -1,3 +1,23 @@
 * Chapter 2: Setting up a Development Environment
 ** Installing Node.js
 + 我们安装nodejs，之后在命令行测试如下命令成功
+  #+begin_src shell
+    $ node --version
+    v20.13.1
+  #+end_src
++ 然后，我们在全局安装typescript
+  #+begin_src shell
+    sudo npm install -g typescript
+
+    added 1 package in 13s
+    npm notice
+    npm notice New minor version of npm available! 10.5.2 -> 10.8.0
+    npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.8.0
+    npm notice Run npm install -g npm@10.8.0 to update!
+    npm notice
+  #+end_src
++ 最后，我们使用如下命令确认typescript在全局安装成功
+  #+begin_src shell
+    $ tsc --v
+    Version 5.4.5
+  #+end_src
